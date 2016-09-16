@@ -1,0 +1,67 @@
+#header {
+    height: 80pt;
+    margin-bottom: -30pt;
+}
+
+#iceCreamPic {
+    height: 230pt;
+    margin-bottom: 20pt;
+    width: 945pt;
+    left: 300pt;
+    border: 2pt solid black;
+    
+}
+
+#menu {
+    background-color: green;
+    width: 200pt;
+    height: 465pt;
+    float: left;
+}
+
+#about {
+    background-color: purple;
+    float: right;
+    width: 200pt;
+    height: 140pt;
+    position: absolute;
+    right: 10;
+}
+
+#pic2 {
+    float: right;
+    width: 200pt;
+    height: 140pt;
+    position: absolute;
+    right: 10;
+    top: 455pt;
+    border: 2pt solid black;
+}
+
+#pop {
+    background-color: yellow;
+    float: right;
+    width: 200pt;
+    height: 140pt;
+    position: absolute;
+    right: 10;
+    top: 617pt;
+}
+
+#center {
+    background-color: brown;
+    width: 500pt;
+    height: 465pt;
+    position: absolute;
+    right: 230pt;
+}
+
+#toppings {
+    background-color: pink;
+    width: 950pt;
+    height: 100pt;
+    position: absolute;
+    right: 2pt;
+    top: 780pt;
+    left: 5pt;
+}
