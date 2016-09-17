@@ -1,3 +1,39 @@
+#logo {
+    height: 50pt;
+    width: 50pt;
+}
+
+#logo2 {
+    height: 50pt;
+    width: 50pt;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#background {
+    background: rgba(73,165,191,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(43,14,87,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(73,165,191,1)), color-stop(100%, rgba(43,14,87,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(43,14,87,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(43,14,87,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(73,165,191,1) 0%, rgba(43,14,87,1) 100%);
+background: radial-gradient(ellipse at center, rgba(73,165,191,1) 0%, rgba(43,14,87,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a5bf', endColorstr='#2b0e57', GradientType=1 );
+}
+
+#storename {
+    font-family: 'Gloria Hallelujah', cursive;
+    position: absolute;
+    top: 0;
+    right: 390pt;
+    font-size: 34pt;
+    margin-top: 0;
+    color: white;
+
+
+}
+
 #header {
     height: 80pt;
     margin-bottom: -30pt;
@@ -13,14 +49,14 @@
 }
 
 #menu {
-    background-color: green;
     width: 200pt;
     height: 465pt;
     float: left;
+    border: 2pt solid black;
 }
 
 #about {
-    background-color: purple;
+    border: 2pt solid black;
     float: right;
     width: 200pt;
     height: 140pt;
@@ -39,7 +75,7 @@
 }
 
 #pop {
-    background-color: yellow;
+    border: 2pt solid black;
     float: right;
     width: 200pt;
     height: 140pt;
@@ -49,7 +85,7 @@
 }
 
 #center {
-    background-color: brown;
+    border: 2pt solid black;
     width: 500pt;
     height: 465pt;
     position: absolute;
@@ -57,7 +93,7 @@
 }
 
 #toppings {
-    background-color: pink;
+    border: 2pt solid black;
     width: 950pt;
     height: 100pt;
     position: absolute;
